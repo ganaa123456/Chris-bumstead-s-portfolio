@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+header {
+    
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    padding: 0 24px;
+    align-items: center;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-right: 4rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.nav-branding {
+    font-size: 2rem;
+    
+}
+.nav-item {
+    font-size: 1.3rem;
+}
+
+/************************** showcase ***************/
+
+.showcase-btn {
+    color: blue;
+}
+#showcase {
+    background: url(/img/Chris-Bumstead-posing-in-a-hallway-in-Spring-2022.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    color: #fff;
+}
+.showcase-heading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    transform: translateX(-1100px);
+    animation: heading 2s forwards ease-in;
+}
+@keyframes heading{
+  to {
+    transform:translateX(0px); ;
+  }
+}
+.showcase-text {
+    font-size: 1.5rem;
+}
+
+.showcase-btn {
+    background: dodgerblue;
+    padding: 0.5rem 2.3rem;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 1.5rem;
+    transition: 0.7s ease;
+    font-size: 1.3rem;
+}
+
+.showcase-btn:hover {
+    background: #333;
+}
+
+
+/*********************** awards ******************/
+#awards {
+    background: #333;
+    padding: 1rem;
+    color: #fff;
+}
+.awards-heading {
+    text-align: center;
+    font-size: 2rem;
+}
+.awards-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.awards-container p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.awards-container h2 {
+    font-size: 1.5rem;
+}
+
+.awards-container  .item {
+    background: black;
+    border-radius: 8px;
+    padding: 0.5rem;
+
+}
+.awards-container  .item-1 {
+    background: black;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.awards-container  .item-2 {
+    background: black;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.awards-container i {
+    color: dodgerblue;
+    margin: 0.5rem 0;
+}
+
+/************ about **************/
+
+
+#about {
+    display: flex;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(22,22,22,1) 35%);
+    color: #fff;
+}
+#about div {
+    flex: 1;
+}
+.about-img {
+    background: url(/img/revive-md-chris-bumstead-gym.jpg) no-repeat center center/cover;
+    height: 100vh;
+    max-width: 500px;
+    max-height: 400px;
+    margin-left: 1rem;
+}
+.about-text {
+    padding: 2rem 5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.about-text h1 {
+    font-size: 2rem;
+}
+
+.about-text p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.l-heading {
+    color: dodgerblue;
+}
+
+
+/************ contact-form ************/
+
+.contact-heading {
+    text-align: center;
+}
+.contact-text {
+    text-align: center;
+}
+.contact-input {
+    position: relative;
+    left: 1000px;
+    bottom: 180px;
+}
+
+#contact {
+    background: url(/img/fitness-room-g6c811b5bd_1920.jpg) no-repeat center center/cover;
+    height: 100vh;
+    max-height: 700px;
+    color: #fff;
+}
+.contact-container {
+     background: rgba(0, 0, 0, 0.7);
+     height: 100%;
+     
+}
+
+.contact-logo-container {
+    position: relative;
+    left: 300px;
+    top: 120px;
+}
+
+.contact-input {
+    background-color: #fff;
+    max-width: 300px;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    
+    
+    
+    
+}
+
+.contact-input h2 {
+    color: black;
+    
+}
+.contact-container h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+
+.contact-form {
+    padding: 1rem;
+}
+.contact-input h2 {
+    padding-left: 0.8rem;
+}
+
+.contact-btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background: dodgerblue;
+     color: #fff;
+     transition: 0.7s ease;
+}
+
+.contact-btn:hover {
+    background: #333;
+}
+.contact-form input {
+    padding: 0.5rem 1.5rem;
+}
+
+.contact-form textarea {
+    padding: 1rem 1.5rem;
+}
+
+.contact-heading {
+    font-size: 2.3rem;
+}
+.contact-logo p {
+    margin-bottom: 1rem;
+}
+
+.contact-text {
+    font-size: 2.5rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: #fff;
+    
+}
+
+.footer {
+    background: #333;
+    padding: 1.2rem 0;
+}

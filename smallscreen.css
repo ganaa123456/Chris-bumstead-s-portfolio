@@ -1,0 +1,28 @@
+.nav-menu {
+
+   flex-direction: column;
+    padding: 1rem;
+}
+.showcase-heading {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.showcase-text {
+    text-align: center;
+}
+.awards-container {
+    flex-direction: column;
+}
+
+#about {
+    flex-direction: column;
+}
+#about div {
+    flex: auto;
+}
+.contact-logo-container {
+    position: relative;
+    left: 0%;
+    left: 40px;
+}
