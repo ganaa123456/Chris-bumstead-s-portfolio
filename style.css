@@ -62,7 +62,7 @@ li {
     color: blue;
 }
 #showcase {
-    background: url(img/Chris-Bumstead-posing-in-a-hallway-in-Spring-2022.jpg) no-repeat center center/cover;
+    background: url(Chris-Bumstead-posing-in-a-hallway-in-Spring-2022.jpg) no-repeat center center/cover;
     height: 100vh;
 }
 
@@ -208,7 +208,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba
 }
 
 #contact {
-    background: url(img/fitness-room-g6c811b5bd_1920.jpg) no-repeat center center/cover;
+    background: url(fitness-room-g6c811b5bd_1920.jpg) no-repeat center center/cover;
     height: 100vh;
     max-height: 700px;
     color: #fff;
